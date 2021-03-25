@@ -90,17 +90,47 @@ CMakeFiles/fantasyFighter.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fantasyFighter.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/main.cpp -o CMakeFiles/fantasyFighter.dir/main.cpp.s
 
+CMakeFiles/fantasyFighter.dir/Character.cpp.o: CMakeFiles/fantasyFighter.dir/flags.make
+CMakeFiles/fantasyFighter.dir/Character.cpp.o: ../Character.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fantasyFighter.dir/Character.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fantasyFighter.dir/Character.cpp.o -c /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.cpp
+
+CMakeFiles/fantasyFighter.dir/Character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fantasyFighter.dir/Character.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.cpp > CMakeFiles/fantasyFighter.dir/Character.cpp.i
+
+CMakeFiles/fantasyFighter.dir/Character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fantasyFighter.dir/Character.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.cpp -o CMakeFiles/fantasyFighter.dir/Character.cpp.s
+
+CMakeFiles/fantasyFighter.dir/Weapons.cpp.o: CMakeFiles/fantasyFighter.dir/flags.make
+CMakeFiles/fantasyFighter.dir/Weapons.cpp.o: ../Weapons.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fantasyFighter.dir/Weapons.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fantasyFighter.dir/Weapons.cpp.o -c /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.cpp
+
+CMakeFiles/fantasyFighter.dir/Weapons.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fantasyFighter.dir/Weapons.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.cpp > CMakeFiles/fantasyFighter.dir/Weapons.cpp.i
+
+CMakeFiles/fantasyFighter.dir/Weapons.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fantasyFighter.dir/Weapons.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.cpp -o CMakeFiles/fantasyFighter.dir/Weapons.cpp.s
+
 # Object files for target fantasyFighter
 fantasyFighter_OBJECTS = \
-"CMakeFiles/fantasyFighter.dir/main.cpp.o"
+"CMakeFiles/fantasyFighter.dir/main.cpp.o" \
+"CMakeFiles/fantasyFighter.dir/Character.cpp.o" \
+"CMakeFiles/fantasyFighter.dir/Weapons.cpp.o"
 
 # External object files for target fantasyFighter
 fantasyFighter_EXTERNAL_OBJECTS =
 
 fantasyFighter: CMakeFiles/fantasyFighter.dir/main.cpp.o
+fantasyFighter: CMakeFiles/fantasyFighter.dir/Character.cpp.o
+fantasyFighter: CMakeFiles/fantasyFighter.dir/Weapons.cpp.o
 fantasyFighter: CMakeFiles/fantasyFighter.dir/build.make
 fantasyFighter: CMakeFiles/fantasyFighter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fantasyFighter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable fantasyFighter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fantasyFighter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

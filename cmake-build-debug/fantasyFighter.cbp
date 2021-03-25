@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.cpp">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.h">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.cpp">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.h">
+			<Option target="fantasyFighter"/>
+		</Unit>
 		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/main.cpp">
 			<Option target="fantasyFighter"/>
 		</Unit>

@@ -3,4 +3,4 @@ project(fantasyFighter)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(fantasyFighter main.cpp)
+add_executable(fantasyFighter main.cpp Character.h Character.cpp Weapons.h Weapons.cpp)
