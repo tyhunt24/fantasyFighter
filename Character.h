@@ -9,10 +9,6 @@
 
 class Character {
 private:
-    string name;
-    string currentWeapon;
-    int wins;
-    int losses;
 public:
 
 };

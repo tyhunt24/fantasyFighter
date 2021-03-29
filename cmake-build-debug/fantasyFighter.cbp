@@ -86,6 +86,36 @@
 		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.h">
 			<Option target="fantasyFighter"/>
 		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/EnemyPlayer.cpp">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/EnemyPlayer.h">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Gun.cpp">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Gun.h">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Store.cpp">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Store.h">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Sword.cpp">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Sword.h">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.cpp">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.h">
+			<Option target="fantasyFighter"/>
+		</Unit>
 		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.cpp">
 			<Option target="fantasyFighter"/>
 		</Unit>

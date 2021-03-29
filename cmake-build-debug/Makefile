@@ -170,6 +170,141 @@ Character.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Character.cpp.s
 .PHONY : Character.cpp.s
 
+EnemyPlayer.o: EnemyPlayer.cpp.o
+
+.PHONY : EnemyPlayer.o
+
+# target to build an object file
+EnemyPlayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/EnemyPlayer.cpp.o
+.PHONY : EnemyPlayer.cpp.o
+
+EnemyPlayer.i: EnemyPlayer.cpp.i
+
+.PHONY : EnemyPlayer.i
+
+# target to preprocess a source file
+EnemyPlayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/EnemyPlayer.cpp.i
+.PHONY : EnemyPlayer.cpp.i
+
+EnemyPlayer.s: EnemyPlayer.cpp.s
+
+.PHONY : EnemyPlayer.s
+
+# target to generate assembly for a file
+EnemyPlayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/EnemyPlayer.cpp.s
+.PHONY : EnemyPlayer.cpp.s
+
+Gun.o: Gun.cpp.o
+
+.PHONY : Gun.o
+
+# target to build an object file
+Gun.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Gun.cpp.o
+.PHONY : Gun.cpp.o
+
+Gun.i: Gun.cpp.i
+
+.PHONY : Gun.i
+
+# target to preprocess a source file
+Gun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Gun.cpp.i
+.PHONY : Gun.cpp.i
+
+Gun.s: Gun.cpp.s
+
+.PHONY : Gun.s
+
+# target to generate assembly for a file
+Gun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Gun.cpp.s
+.PHONY : Gun.cpp.s
+
+Store.o: Store.cpp.o
+
+.PHONY : Store.o
+
+# target to build an object file
+Store.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Store.cpp.o
+.PHONY : Store.cpp.o
+
+Store.i: Store.cpp.i
+
+.PHONY : Store.i
+
+# target to preprocess a source file
+Store.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Store.cpp.i
+.PHONY : Store.cpp.i
+
+Store.s: Store.cpp.s
+
+.PHONY : Store.s
+
+# target to generate assembly for a file
+Store.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Store.cpp.s
+.PHONY : Store.cpp.s
+
+Sword.o: Sword.cpp.o
+
+.PHONY : Sword.o
+
+# target to build an object file
+Sword.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Sword.cpp.o
+.PHONY : Sword.cpp.o
+
+Sword.i: Sword.cpp.i
+
+.PHONY : Sword.i
+
+# target to preprocess a source file
+Sword.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Sword.cpp.i
+.PHONY : Sword.cpp.i
+
+Sword.s: Sword.cpp.s
+
+.PHONY : Sword.s
+
+# target to generate assembly for a file
+Sword.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Sword.cpp.s
+.PHONY : Sword.cpp.s
+
+UserPlayer.o: UserPlayer.cpp.o
+
+.PHONY : UserPlayer.o
+
+# target to build an object file
+UserPlayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o
+.PHONY : UserPlayer.cpp.o
+
+UserPlayer.i: UserPlayer.cpp.i
+
+.PHONY : UserPlayer.i
+
+# target to preprocess a source file
+UserPlayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.i
+.PHONY : UserPlayer.cpp.i
+
+UserPlayer.s: UserPlayer.cpp.s
+
+.PHONY : UserPlayer.s
+
+# target to generate assembly for a file
+UserPlayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.s
+.PHONY : UserPlayer.cpp.s
+
 Weapons.o: Weapons.cpp.o
 
 .PHONY : Weapons.o
@@ -236,6 +371,21 @@ help:
 	@echo "... Character.o"
 	@echo "... Character.i"
 	@echo "... Character.s"
+	@echo "... EnemyPlayer.o"
+	@echo "... EnemyPlayer.i"
+	@echo "... EnemyPlayer.s"
+	@echo "... Gun.o"
+	@echo "... Gun.i"
+	@echo "... Gun.s"
+	@echo "... Store.o"
+	@echo "... Store.i"
+	@echo "... Store.s"
+	@echo "... Sword.o"
+	@echo "... Sword.i"
+	@echo "... Sword.s"
+	@echo "... UserPlayer.o"
+	@echo "... UserPlayer.i"
+	@echo "... UserPlayer.s"
 	@echo "... Weapons.o"
 	@echo "... Weapons.i"
 	@echo "... Weapons.s"

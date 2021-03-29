@@ -1,5 +1,5 @@
 //
-// Created by Jeffrey Hunt on 3/24/21.
+// Created by Jeffrey Hunt on 3/29/21.
 //
 
 #ifndef FANTASYFIGHTER_WEAPONS_H
@@ -7,13 +7,7 @@
 
 
 class Weapons {
-private:
-    int hitpoints;
-    int ammo;
-    int price;
 
-public:
-    
 };
 
 
