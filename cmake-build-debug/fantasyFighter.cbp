@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Armor.cpp">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Armor.h">
+			<Option target="fantasyFighter"/>
+		</Unit>
 		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.cpp">
 			<Option target="fantasyFighter"/>
 		</Unit>
@@ -116,10 +122,10 @@
 		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.h">
 			<Option target="fantasyFighter"/>
 		</Unit>
-		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.cpp">
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.cpp">
 			<Option target="fantasyFighter"/>
 		</Unit>
-		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.h">
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h">
 			<Option target="fantasyFighter"/>
 		</Unit>
 		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/main.cpp">

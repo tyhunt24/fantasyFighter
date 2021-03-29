@@ -143,6 +143,33 @@ fantasyFighter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/build
 .PHONY : fantasyFighter/fast
 
+Armor.o: Armor.cpp.o
+
+.PHONY : Armor.o
+
+# target to build an object file
+Armor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Armor.cpp.o
+.PHONY : Armor.cpp.o
+
+Armor.i: Armor.cpp.i
+
+.PHONY : Armor.i
+
+# target to preprocess a source file
+Armor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Armor.cpp.i
+.PHONY : Armor.cpp.i
+
+Armor.s: Armor.cpp.s
+
+.PHONY : Armor.s
+
+# target to generate assembly for a file
+Armor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Armor.cpp.s
+.PHONY : Armor.cpp.s
+
 Character.o: Character.cpp.o
 
 .PHONY : Character.o
@@ -305,32 +332,32 @@ UserPlayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.s
 .PHONY : UserPlayer.cpp.s
 
-Weapons.o: Weapons.cpp.o
+Weapon.o: Weapon.cpp.o
 
-.PHONY : Weapons.o
+.PHONY : Weapon.o
 
 # target to build an object file
-Weapons.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Weapons.cpp.o
-.PHONY : Weapons.cpp.o
+Weapon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Weapon.cpp.o
+.PHONY : Weapon.cpp.o
 
-Weapons.i: Weapons.cpp.i
+Weapon.i: Weapon.cpp.i
 
-.PHONY : Weapons.i
+.PHONY : Weapon.i
 
 # target to preprocess a source file
-Weapons.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Weapons.cpp.i
-.PHONY : Weapons.cpp.i
+Weapon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Weapon.cpp.i
+.PHONY : Weapon.cpp.i
 
-Weapons.s: Weapons.cpp.s
+Weapon.s: Weapon.cpp.s
 
-.PHONY : Weapons.s
+.PHONY : Weapon.s
 
 # target to generate assembly for a file
-Weapons.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Weapons.cpp.s
-.PHONY : Weapons.cpp.s
+Weapon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Weapon.cpp.s
+.PHONY : Weapon.cpp.s
 
 main.o: main.cpp.o
 
@@ -368,6 +395,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fantasyFighter"
+	@echo "... Armor.o"
+	@echo "... Armor.i"
+	@echo "... Armor.s"
 	@echo "... Character.o"
 	@echo "... Character.i"
 	@echo "... Character.s"
@@ -386,9 +416,9 @@ help:
 	@echo "... UserPlayer.o"
 	@echo "... UserPlayer.i"
 	@echo "... UserPlayer.s"
-	@echo "... Weapons.o"
-	@echo "... Weapons.i"
-	@echo "... Weapons.s"
+	@echo "... Weapon.o"
+	@echo "... Weapon.i"
+	@echo "... Weapon.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

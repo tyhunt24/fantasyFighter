@@ -3,3 +3,11 @@
 //
 
 #include "Gun.h"
+
+void Gun::setDamage(int d) {
+    damage = d;
+}
+
+int Gun::getDamage() {
+    return damage;
+}

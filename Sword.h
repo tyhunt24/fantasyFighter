@@ -4,10 +4,18 @@
 
 #ifndef FANTASYFIGHTER_SWORD_H
 #define FANTASYFIGHTER_SWORD_H
+#include <string>
+#include "Weapon.h"
 
 
-class Sword {
+class Sword: public Weapon {
+private:
+    string name;
+    int damage;
 
+public:
+    void setDamage(int d);
+    int getDamage();
 };
 
 
