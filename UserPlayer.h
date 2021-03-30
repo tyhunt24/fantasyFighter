@@ -11,20 +11,6 @@ using namespace std;
 
 
 class UserPlayer {
-private:
-    string name;
-    int money;
-    Weapon weapon;
-    Armor armor;
-public:
-    UserPlayer();
-    void setMoney();
-    int getMoney();
-    void setWeapon(Weapon w);
-    Weapon getWeapon();
-    void setArmour();
-    Armor getArmour();
-    void attack();
 
 };
 

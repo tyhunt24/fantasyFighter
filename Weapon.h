@@ -6,17 +6,21 @@
 #define FANTASYFIGHTER_WEAPON_H
 #include <string>
 #include <vector>
-#include "Gun.h"
 using namespace std;
 
 class Weapon {
 private:
-    string name;
-    int price;
+    string Name;
+    int Damage;
+    int Price;
 public:
-    void setPrice(int m);
-    int getPrice();
-
+    Weapon(string name, int damage, int price);
+    void setName(string n);
+    string getName();
+    void setDamage(int d);
+    int getDamage() const;
+    void setPrice(int p);
+    int getPrice() const;
 };
 
 

@@ -6,49 +6,63 @@
 
 #IncludeRegexTransform: 
 
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Armor.h
+
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.cpp
 Character.h
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.h
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.h
-
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/EnemyPlayer.cpp
-EnemyPlayer.h
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/EnemyPlayer.h
-
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/EnemyPlayer.h
+String
+-
+Weapon.h
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
+Armor.h
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Armor.h
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Gun.cpp
 Gun.h
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Gun.h
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Gun.h
-
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Store.cpp
-Store.h
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Store.h
-
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Store.h
+Weapon.h
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Sword.cpp
 Sword.h
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Sword.h
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Sword.h
+string
+-
+Weapon.h
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.cpp
 UserPlayer.h
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.h
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.h
+string
+-
+Weapon.h
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
+Armor.h
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Armor.h
 
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.cpp
-Weapons.h
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.h
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.cpp
+Weapon.h
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
 
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapons.h
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
+string
+-
+vector
+-
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/main.cpp
 iostream
 -
+Weapon.h
+/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
 

@@ -10,12 +10,7 @@
 
 class Sword: public Weapon {
 private:
-    string name;
-    int damage;
-
 public:
-    void setDamage(int d);
-    int getDamage();
 };
 
 

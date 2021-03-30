@@ -4,10 +4,15 @@
 
 #include "Gun.h"
 
-void Gun::setDamage(int d) {
-    damage = d;
+
+Gun::Gun(string name, int damage, int price, int ammo) : Weapon(name, damage, price) {
+Ammo=ammo;
 }
 
-int Gun::getDamage() {
-    return damage;
+void Gun::setAmmo(int a) {
+Ammo=a;
+}
+
+int Gun::getAmmo() {
+    return 0;
 }

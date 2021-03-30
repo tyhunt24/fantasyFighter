@@ -5,19 +5,15 @@
 #ifndef FANTASYFIGHTER_GUN_H
 #define FANTASYFIGHTER_GUN_H
 #include "Weapon.h"
-using namespace std;
 
 
-class Gun: public Weapon{
+class Gun : public Weapon{
 private:
-    string name;
-    int price;
-    int damage;
-    int ammo;
-
+    int Ammo;
 public:
-    void setDamage(int d);
-    int getDamage();
+    Gun(string name, int damage, int price, int ammo);
+    void setAmmo(int a);
+    int getAmmo();
 };
 
 
