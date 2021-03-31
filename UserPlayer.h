@@ -10,6 +10,7 @@ using namespace std;
 #include "Armor.h"
 #include "Character.h"
 
+//UserPlayer class
 class UserPlayer: public Character{
 private:
     int money;
