@@ -8,9 +8,15 @@ using namespace std;
 #include <string>
 #include "Weapon.h"
 #include "Armor.h"
+#include "Character.h"
 
-
-class UserPlayer {
+class UserPlayer: public Character{
+private:
+    int money;
+public:
+    UserPlayer(int m);
+    void setMoney(int m);
+    int getMoney();
 
 };
 

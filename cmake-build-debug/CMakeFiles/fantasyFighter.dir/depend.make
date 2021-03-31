@@ -31,6 +31,5 @@ CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o: ../Weapon.h
 CMakeFiles/fantasyFighter.dir/Weapon.cpp.o: ../Weapon.cpp
 CMakeFiles/fantasyFighter.dir/Weapon.cpp.o: ../Weapon.h
 
-CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Weapon.h
 CMakeFiles/fantasyFighter.dir/main.cpp.o: ../main.cpp
 

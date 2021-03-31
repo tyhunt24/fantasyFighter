@@ -11,6 +11,14 @@
 using namespace std;
 
 class Character {
+private:
+    string Name;
+    Weapon CurrentWeapon;
+    Armor CurrentArmor;
+    int Money;
+public:
+    Character(string name, Weapon cw, Armor ca, int m);
+    void attack();
 };
 
 
