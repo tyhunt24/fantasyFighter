@@ -9,21 +9,28 @@ CMakeFiles/fantasyFighter.dir/Character.cpp.o: ../Character.cpp
 CMakeFiles/fantasyFighter.dir/Character.cpp.o: ../Character.h
 CMakeFiles/fantasyFighter.dir/Character.cpp.o: ../Weapon.h
 
+CMakeFiles/fantasyFighter.dir/EnemyPlayer.cpp.o: ../Armor.h
+CMakeFiles/fantasyFighter.dir/EnemyPlayer.cpp.o: ../Character.h
 CMakeFiles/fantasyFighter.dir/EnemyPlayer.cpp.o: ../EnemyPlayer.cpp
 CMakeFiles/fantasyFighter.dir/EnemyPlayer.cpp.o: ../EnemyPlayer.h
+CMakeFiles/fantasyFighter.dir/EnemyPlayer.cpp.o: ../Weapon.h
 
 CMakeFiles/fantasyFighter.dir/Gun.cpp.o: ../Gun.cpp
 CMakeFiles/fantasyFighter.dir/Gun.cpp.o: ../Gun.h
 CMakeFiles/fantasyFighter.dir/Gun.cpp.o: ../Weapon.h
 
+CMakeFiles/fantasyFighter.dir/Store.cpp.o: ../Armor.h
+CMakeFiles/fantasyFighter.dir/Store.cpp.o: ../Gun.h
 CMakeFiles/fantasyFighter.dir/Store.cpp.o: ../Store.cpp
 CMakeFiles/fantasyFighter.dir/Store.cpp.o: ../Store.h
+CMakeFiles/fantasyFighter.dir/Store.cpp.o: ../Weapon.h
 
 CMakeFiles/fantasyFighter.dir/Sword.cpp.o: ../Sword.cpp
 CMakeFiles/fantasyFighter.dir/Sword.cpp.o: ../Sword.h
 CMakeFiles/fantasyFighter.dir/Sword.cpp.o: ../Weapon.h
 
 CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o: ../Armor.h
+CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o: ../Character.h
 CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o: ../UserPlayer.cpp
 CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o: ../UserPlayer.h
 CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o: ../Weapon.h
@@ -31,5 +38,12 @@ CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o: ../Weapon.h
 CMakeFiles/fantasyFighter.dir/Weapon.cpp.o: ../Weapon.cpp
 CMakeFiles/fantasyFighter.dir/Weapon.cpp.o: ../Weapon.h
 
+CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Armor.h
+CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Character.h
+CMakeFiles/fantasyFighter.dir/main.cpp.o: ../EnemyPlayer.h
+CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Gun.h
+CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Store.h
+CMakeFiles/fantasyFighter.dir/main.cpp.o: ../UserPlayer.h
+CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Weapon.h
 CMakeFiles/fantasyFighter.dir/main.cpp.o: ../main.cpp
 

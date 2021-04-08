@@ -4,10 +4,15 @@
 
 #ifndef FANTASYFIGHTER_ENEMYPLAYER_H
 #define FANTASYFIGHTER_ENEMYPLAYER_H
+#include <iostream>
+#include "Character.h"
 
 
-class EnemyPlayer {
-
+class EnemyPlayer: public Character {
+private:
+public:
+    EnemyPlayer(string n, Weapon cw, int c, int hp);
+    void attack(Character& p);
 };
 
 

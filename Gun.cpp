@@ -14,5 +14,5 @@ Ammo=a;
 }
 
 int Gun::getAmmo() {
-    return 0;
+    return Ammo;
 }

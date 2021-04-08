@@ -9,10 +9,10 @@
 using namespace std;
 
 class Weapon {
-private:
+protected:
     string Name;
-    int Damage;
     int Price;
+    int Damage;
 public:
     Weapon(string name, int damage, int price);
     void setName(string n);
@@ -21,6 +21,7 @@ public:
     int getDamage() const;
     void setPrice(int p);
     int getPrice() const;
+
 };
 
 

@@ -11,14 +11,24 @@
 using namespace std;
 
 class Character {
-private:
+protected:
     string Name;
-    Weapon CurrentWeapon;
-    Armor CurrentArmor;
-    int Money;
+    Weapon weapon;
+    int cash;
+
 public:
-    Character(string name, Weapon cw, Armor ca, int m);
-    void attack();
+    Character(string n, Weapon cw, int c, int hp);
+    void setWeapon(Weapon w);
+    Weapon getWeapon();
+    void setName(string name);
+    string getName();
+    void setCash(int c);
+    int getCash();
+    void setHealth(int hp);
+    int getHealth() const;
+    int healthPoints;
+
+
 };
 
 
