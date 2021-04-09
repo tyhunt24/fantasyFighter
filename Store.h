@@ -9,6 +9,7 @@
 #include "Weapon.h"
 #include "Armor.h"
 #include "Gun.h"
+#include "Sword.h"
 
 class Store {
 private:

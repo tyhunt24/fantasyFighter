@@ -7,6 +7,5 @@ using namespace std;
 #include "Store.h"
 
 int main() {
-    
     return 0;
 }
