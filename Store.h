@@ -7,17 +7,18 @@
 #include <vector>
 #include <iostream>
 #include "Weapon.h"
-#include "Armor.h"
 #include "Gun.h"
 #include "Sword.h"
+# include "UserPlayer.h"
 
 class Store {
-private:
+protected:
     vector<Weapon> weapons;
-    vector<Armor> armors;
+    UserPlayer player1;
 public:
     void addWeapon();
     void showMenu();
+    void purchase();
 };
 
 

@@ -14,3 +14,7 @@ void UserPlayer::attack(Character& p) {
     p.healthPoints = p.healthPoints - weapon.getDamage();
     cout << p.getName() << " health is at " << p.healthPoints << endl;
 }
+
+UserPlayer::UserPlayer() {
+
+}

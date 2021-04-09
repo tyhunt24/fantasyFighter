@@ -11,7 +11,7 @@ class Gun : public Weapon{
 private:
     int Ammo;
 public:
-    Gun(string name, int damage, int price, int ammo);
+    Gun(string name, int damage, int price, int ammo, int id);
     void setAmmo(int a);
     int getAmmo();
 };

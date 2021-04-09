@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fantasyFighter.dir/Armor.cpp.o"
   "CMakeFiles/fantasyFighter.dir/Character.cpp.o"
   "CMakeFiles/fantasyFighter.dir/EnemyPlayer.cpp.o"
   "CMakeFiles/fantasyFighter.dir/Gun.cpp.o"

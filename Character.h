@@ -4,9 +4,8 @@
 
 #ifndef FANTASYFIGHTER_CHARACTER_H
 #define FANTASYFIGHTER_CHARACTER_H
-#include <String>
+#include <string>
 #include "Weapon.h"
-#include "Armor.h"
 
 using namespace std;
 
@@ -17,6 +16,7 @@ protected:
     int cash;
 
 public:
+    Character();
     Character(string n, Weapon cw, int c, int hp);
     void setWeapon(Weapon w);
     Weapon getWeapon();

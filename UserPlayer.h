@@ -8,13 +8,13 @@ using namespace std;
 #include <iostream>
 #include <string>
 #include "Weapon.h"
-#include "Armor.h"
 #include "Character.h"
 
 
 //UserPlayer class
 class UserPlayer: public Character{
 public:
+    UserPlayer();
     UserPlayer(string n, Weapon cw, int c, int hp);
     void attack(Character& e);
 };

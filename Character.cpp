@@ -45,5 +45,10 @@ string Character::getName() {
     return Name;
 }
 
+Character::Character() {
+
+}
+
+
 
 

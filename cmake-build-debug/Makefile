@@ -143,33 +143,6 @@ fantasyFighter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/build
 .PHONY : fantasyFighter/fast
 
-Armor.o: Armor.cpp.o
-
-.PHONY : Armor.o
-
-# target to build an object file
-Armor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Armor.cpp.o
-.PHONY : Armor.cpp.o
-
-Armor.i: Armor.cpp.i
-
-.PHONY : Armor.i
-
-# target to preprocess a source file
-Armor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Armor.cpp.i
-.PHONY : Armor.cpp.i
-
-Armor.s: Armor.cpp.s
-
-.PHONY : Armor.s
-
-# target to generate assembly for a file
-Armor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fantasyFighter.dir/build.make CMakeFiles/fantasyFighter.dir/Armor.cpp.s
-.PHONY : Armor.cpp.s
-
 Character.o: Character.cpp.o
 
 .PHONY : Character.o
@@ -395,9 +368,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fantasyFighter"
-	@echo "... Armor.o"
-	@echo "... Armor.i"
-	@echo "... Armor.s"
 	@echo "... Character.o"
 	@echo "... Character.i"
 	@echo "... Character.s"
