@@ -34,17 +34,16 @@ void Store::showMenu() {
 
 void Store::purchase() {
     int buy;
-    addWeapon();
+    showMenu();
 
    cout << "Which weapon would you like to buy: " << endl;
    cin >> buy;
 
-
-    if (buy == 1 && player1.getCash() > weapons[1].getPrice()) {
-        player1.setWeapon(weapons[1]);
+   if (buy == 1 && player1.getCash() > weapons[1].getPrice()) {
+        player1.addWeapon(weapons[1]);
     } else if(buy == 2 && player1.getCash() > weapons[2].getPrice()) {
-        player1.setWeapon(weapons[2]);
+        player1.addWeapon(weapons[2]);
     } else if(buy == 3 && player1.getCash() > weapons[3].getPrice()) {
-        player1.setWeapon(weapons[3]);
+        player1.addWeapon(weapons[3]);
     }
 }

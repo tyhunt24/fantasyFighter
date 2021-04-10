@@ -7,7 +7,7 @@
 
 UserPlayer::UserPlayer(string n, Weapon cw, int c, int hp) : Character(n, cw, c, hp) {
     n = n;
-    cw = cw;
+    currentWeapon = cw;
 }
 
 void UserPlayer::attack(Character& p) {
@@ -18,3 +18,21 @@ void UserPlayer::attack(Character& p) {
 UserPlayer::UserPlayer() {
 
 }
+
+void UserPlayer::addWeapon(Weapon weapon) {
+    userWeapon.push_back(weapon);
+}
+
+Weapon UserPlayer::getCurrentWeapon(int i) {
+  currentWeapon = userWeapon[i];
+  return currentWeapon;
+}
+
+void UserPlayer::viewUserWeapon() {
+    for(int i = 0; i < userWeapon.size(); i++) {
+        cout << userWeapon[i].getName() << endl;
+    }
+}
+
+
+
