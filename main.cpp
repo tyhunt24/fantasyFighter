@@ -11,8 +11,6 @@ using namespace std;
 int main() {
     game g;
     g.fight();
-
-//    Store store;
 //
 //         cout << "Choose an option: " << endl;
 //         cout << "0. Exit out of the game." << endl;

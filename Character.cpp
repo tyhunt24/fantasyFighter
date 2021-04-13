@@ -44,9 +44,9 @@ string Character::getName() {
     return Name;
 }
 
-void Character::attack(Character target) {
-   target.setHealth(target.healthPoints-=weapon.getDamage());
-    cout << target.getName()  << " health is at " << target.healthPoints << endl;
+void Character::attack(Character* target) {
+    target->setHealth(target->healthPoints-=weapon.getDamage());
+    cout << target->getName()  << " health is at " << target->healthPoints << endl;
 }
 
 

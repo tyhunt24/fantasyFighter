@@ -13,9 +13,9 @@
 class game {
 protected:
     Character* player1;
-    Character* enemy1;
+    EnemyPlayer* enemy1;
     Store store;
-    int level;
+    int level = 0;
 public:
     game();
     void playerWeapons();

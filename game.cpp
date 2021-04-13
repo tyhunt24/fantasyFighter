@@ -22,11 +22,32 @@ cout << player1->getWeapon().getName() << endl;
 }
 
 void game::fight() {
-    while (player1->healthPoints > 0 && enemy1->healthPoints > 0) {
-        int i = 50;
-        i--;
-        player1->setHealth(i);
-        cout << player1->getHealth() << endl;
+    srand(time(NULL));
+        while (player1->getHealth() >= 0 && enemy1->getHealth() >= 0) {
+
+            int v1 = rand() % 2 + 1;
+            switch (v1) {
+                case 1: {
+                    player1->attack(enemy1);
+                    break;
+                }
+                case 2: {
+                    enemy1->attack(player1);
+                    break;
+                }
+            }
+
+            if (player1->getHealth() == 0) {
+                cout << "You have lost the match" << endl;
+                player1->setCash(-10);
+                break;
+            }
+            if (enemy1->getHealth() == 0) {
+                cout << "congrats you have won the match" << endl;
+                player1->setCash(enemy1->getCash());
+                break;
+            }
+
         }
     }
 

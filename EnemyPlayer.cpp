@@ -5,7 +5,6 @@
 #include "EnemyPlayer.h"
 
 EnemyPlayer::EnemyPlayer(string n, Weapon cw, int c, int hp) : Character(n, cw, c, hp)  {
-
 }
 
 void EnemyPlayer::addEnemies() {

@@ -27,7 +27,7 @@ public:
     void setHealth(int hp);
     int getHealth() const;
     int healthPoints;
-    void attack(Character c);
+    void attack(Character* c);
 };
 
 
