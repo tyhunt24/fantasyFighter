@@ -6,17 +6,17 @@
 #define FANTASYFIGHTER_CHARACTER_H
 #include <string>
 #include "Weapon.h"
+#include <iostream>
 
 using namespace std;
 
 class Character {
 protected:
     string Name;
-    Weapon weapon;
     int cash;
+    Weapon weapon;
 
 public:
-    Character();
     Character(string n, Weapon cw, int c, int hp);
     void setWeapon(Weapon w);
     Weapon getWeapon();
@@ -27,8 +27,7 @@ public:
     void setHealth(int hp);
     int getHealth() const;
     int healthPoints;
-
-
+    void attack(Character c);
 };
 
 

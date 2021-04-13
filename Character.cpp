@@ -10,7 +10,6 @@ Character::Character(string n, Weapon cw, int c, int hp): weapon(cw) {
     weapon = cw;
     cash = c;
     healthPoints = hp;
-
 }
 
 void Character::setWeapon(Weapon w) {
@@ -45,8 +44,9 @@ string Character::getName() {
     return Name;
 }
 
-Character::Character() {
-
+void Character::attack(Character target) {
+   target.setHealth(target.healthPoints-=weapon.getDamage());
+    cout << target.getName()  << " health is at " << target.healthPoints << endl;
 }
 
 

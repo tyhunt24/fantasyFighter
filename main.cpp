@@ -6,25 +6,20 @@ using namespace std;
 #include "EnemyPlayer.h"
 #include "Sword.h"
 #include "Store.h"
-
+#include "game.h"
 
 int main() {
-    Store s;
-    EnemyPlayer ep;
+    game g;
+    g.fight();
 
-    Weapon kitchenKnife = Weapon("knife", 20, 0, 0);
-    UserPlayer player = UserPlayer("Jeff", kitchenKnife, 2200, 10);
-
-    s.purchase();
-
-    player.viewUserWeapon();
-
-//    while(true) {
-//        cout << "Choose an option: " << endl;
-//        cout << "1. Enter the Store " << endl;
-//        cout << "2. View the Enemies. " << endl;
-//        cout << "3. Fight in the Arena " << endl;
-//        cout << "4. View the Characters sheet " << endl;
+//    Store store;
+//
+//         cout << "Choose an option: " << endl;
+//         cout << "0. Exit out of the game." << endl;
+//         cout << "1. Enter the Store " << endl;
+//         cout << "2. View the Enemies. " << endl;
+//         cout << "3. Fight in the Arena " << endl;
+//         cout << "4. View the Characters sheet " << endl;
 //
 //        int menu;
 //        cin >> menu;
@@ -36,17 +31,15 @@ int main() {
 //                // todo: save user status
 //                return 0;
 //            case 1: {
-//                s.showMenu();
+//                store.showMenu();
 //                // todo: Figure out how to purchase weapons
 //                break;
-//            }
+//           }
 //            case 2: {
-//               ep.showMenu();
 //               break;
 //            }
 //            case 3: {
 //                // todo: Figure out how to fight
-//                cout << "Arena to fight: " << endl;
 //                break;
 //            }
 //            case 4: {
@@ -58,10 +51,9 @@ int main() {
 //                cout << "Sorry you did not answer the correct input" << endl;
 //                break;
 //            }
-//
-//        }
+
 //    }
 
 
-    return 0;
+        return 0;
 }

@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Sword.cpp" "/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/cmake-build-debug/CMakeFiles/fantasyFighter.dir/Sword.cpp.o"
   "/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.cpp" "/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/cmake-build-debug/CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o"
   "/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.cpp" "/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/cmake-build-debug/CMakeFiles/fantasyFighter.dir/Weapon.cpp.o"
+  "/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/game.cpp" "/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/cmake-build-debug/CMakeFiles/fantasyFighter.dir/game.cpp.o"
   "/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/main.cpp" "/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/cmake-build-debug/CMakeFiles/fantasyFighter.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

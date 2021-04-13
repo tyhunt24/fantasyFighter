@@ -12,6 +12,7 @@ class Sword: public Weapon {
 private:
 public:
     Sword(string name, int damage, int price, int id);
+
 };
 
 

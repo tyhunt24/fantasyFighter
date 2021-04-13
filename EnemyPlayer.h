@@ -9,14 +9,13 @@
 #include <vector>
 
 class EnemyPlayer: public Character {
-private:
+protected:
     vector<EnemyPlayer> enemies;
 public:
-    EnemyPlayer();
     EnemyPlayer(string n, Weapon cw, int c, int hp);
-    void attack(Character& p);
     void showMenu();
     void addEnemies();
+    Character* getEnemy(int level);
 };
 
 

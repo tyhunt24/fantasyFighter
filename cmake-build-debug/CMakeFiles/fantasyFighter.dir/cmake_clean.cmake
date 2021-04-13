@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/fantasyFighter.dir/Sword.cpp.o"
   "CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o"
   "CMakeFiles/fantasyFighter.dir/Weapon.cpp.o"
+  "CMakeFiles/fantasyFighter.dir/game.cpp.o"
   "CMakeFiles/fantasyFighter.dir/main.cpp.o"
   "fantasyFighter"
   "fantasyFighter.pdb"

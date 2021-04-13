@@ -13,12 +13,12 @@
 
 class Store {
 protected:
-    vector<Weapon> weapons;
-    UserPlayer player1;
 public:
-    void addWeapon();
+    Store() {createWeapons();}
+    void createWeapons();
     void showMenu();
-    void purchase();
+    Weapon* purchase();
+    vector<Weapon> weapons;
 };
 
 

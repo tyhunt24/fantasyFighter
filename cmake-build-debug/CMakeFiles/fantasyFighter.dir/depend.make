@@ -34,6 +34,16 @@ CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o: ../Weapon.h
 CMakeFiles/fantasyFighter.dir/Weapon.cpp.o: ../Weapon.cpp
 CMakeFiles/fantasyFighter.dir/Weapon.cpp.o: ../Weapon.h
 
+CMakeFiles/fantasyFighter.dir/game.cpp.o: ../Character.h
+CMakeFiles/fantasyFighter.dir/game.cpp.o: ../EnemyPlayer.h
+CMakeFiles/fantasyFighter.dir/game.cpp.o: ../Gun.h
+CMakeFiles/fantasyFighter.dir/game.cpp.o: ../Store.h
+CMakeFiles/fantasyFighter.dir/game.cpp.o: ../Sword.h
+CMakeFiles/fantasyFighter.dir/game.cpp.o: ../UserPlayer.h
+CMakeFiles/fantasyFighter.dir/game.cpp.o: ../Weapon.h
+CMakeFiles/fantasyFighter.dir/game.cpp.o: ../game.cpp
+CMakeFiles/fantasyFighter.dir/game.cpp.o: ../game.h
+
 CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Character.h
 CMakeFiles/fantasyFighter.dir/main.cpp.o: ../EnemyPlayer.h
 CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Gun.h
@@ -41,5 +51,6 @@ CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Store.h
 CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Sword.h
 CMakeFiles/fantasyFighter.dir/main.cpp.o: ../UserPlayer.h
 CMakeFiles/fantasyFighter.dir/main.cpp.o: ../Weapon.h
+CMakeFiles/fantasyFighter.dir/main.cpp.o: ../game.h
 CMakeFiles/fantasyFighter.dir/main.cpp.o: ../main.cpp
 

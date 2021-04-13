@@ -36,7 +36,6 @@ int Weapon::getPrice() const {
 }
 
 Weapon::Weapon() {
-
 }
 
 

@@ -15,15 +15,8 @@ using namespace std;
 //UserPlayer class
 class UserPlayer: public Character{
 protected:
-    vector<Weapon> userWeapon;
-    Weapon currentWeapon;
 public:
-    UserPlayer();
     UserPlayer(string n, Weapon cw, int c, int hp);
-    void attack(Character& e);
-    void addWeapon(Weapon weapon);
-    Weapon getCurrentWeapon(int i);
-    void viewUserWeapon();
 };
 
 

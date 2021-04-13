@@ -122,6 +122,12 @@
 		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h">
 			<Option target="fantasyFighter"/>
 		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/game.cpp">
+			<Option target="fantasyFighter"/>
+		</Unit>
+		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/game.h">
+			<Option target="fantasyFighter"/>
+		</Unit>
 		<Unit filename="/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/main.cpp">
 			<Option target="fantasyFighter"/>
 		</Unit>

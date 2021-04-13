@@ -34,6 +34,16 @@ CMakeFiles/fantasyFighter.dir/UserPlayer.cpp.o
 CMakeFiles/fantasyFighter.dir/Weapon.cpp.o
  /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.cpp
  /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
+CMakeFiles/fantasyFighter.dir/game.cpp.o
+ /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.h
+ /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/EnemyPlayer.h
+ /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Gun.h
+ /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Store.h
+ /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Sword.h
+ /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.h
+ /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
+ /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/game.cpp
+ /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/game.h
 CMakeFiles/fantasyFighter.dir/main.cpp.o
  /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.h
  /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/EnemyPlayer.h
@@ -42,4 +52,5 @@ CMakeFiles/fantasyFighter.dir/main.cpp.o
  /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Sword.h
  /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.h
  /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
+ /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/game.h
  /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/main.cpp

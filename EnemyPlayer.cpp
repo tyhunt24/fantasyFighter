@@ -5,13 +5,7 @@
 #include "EnemyPlayer.h"
 
 EnemyPlayer::EnemyPlayer(string n, Weapon cw, int c, int hp) : Character(n, cw, c, hp)  {
-    n = n;
-    cw = cw;
-}
 
-void EnemyPlayer::attack(Character& p) {
-    p.healthPoints = p.healthPoints - weapon.getDamage();
-    cout << p.getName() << " health is at " << p.healthPoints << endl;
 }
 
 void EnemyPlayer::addEnemies() {
@@ -40,7 +34,13 @@ void EnemyPlayer::showMenu() {
     }
 }
 
-EnemyPlayer::EnemyPlayer() {
-
+Character *EnemyPlayer::getEnemy(int level) {
+    if(level >= enemies.size()) {
+        return nullptr;
+    }
+    return &(enemies[level]);
 }
+
+
+
 
