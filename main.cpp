@@ -1,57 +1,9 @@
-#include <iostream>
-using namespace std;
-#include "Character.h"
-#include "Gun.h"
-#include "UserPlayer.h"
-#include "EnemyPlayer.h"
-#include "Sword.h"
-#include "Store.h"
 #include "game.h"
 
 int main() {
     game g;
-    g.fight();
-//
-//         cout << "Choose an option: " << endl;
-//         cout << "0. Exit out of the game." << endl;
-//         cout << "1. Enter the Store " << endl;
-//         cout << "2. View the Enemies. " << endl;
-//         cout << "3. Fight in the Arena " << endl;
-//         cout << "4. View the Characters sheet " << endl;
-//
-//        int menu;
-//        cin >> menu;
-//        cin.ignore();
-//
-//        switch(menu) {
-//            case 0:
-//                cout << "Thank you goodbye" << endl;
-//                // todo: save user status
-//                return 0;
-//            case 1: {
-//                store.showMenu();
-//                // todo: Figure out how to purchase weapons
-//                break;
-//           }
-//            case 2: {
-//               break;
-//            }
-//            case 3: {
-//                // todo: Figure out how to fight
-//                break;
-//            }
-//            case 4: {
-//                // todo: show the character his sheet
-//                cout << "Figure out how to show the character his sheet.";
-//                break;
-//            }
-//            default: {
-//                cout << "Sorry you did not answer the correct input" << endl;
-//                break;
-//            }
 
-//    }
-
+    g.play();
 
         return 0;
 }

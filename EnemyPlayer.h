@@ -12,10 +12,11 @@ class EnemyPlayer: public Character {
 protected:
     vector<EnemyPlayer> enemies;
 public:
+    EnemyPlayer();
     EnemyPlayer(string n, Weapon cw, int c, int hp);
     void showMenu();
     void addEnemies();
-    Character* getEnemy(int level);
+    EnemyPlayer getEnemy();
 };
 
 

@@ -4,23 +4,31 @@
 
 #include "game.h"
 
+//Constructor for this function, intial values
 game::game() {
     Weapon knife("knife", 10, 0, 1);
-    player1 = new UserPlayer("Player", knife, 30, 50);
-    enemy1 = new EnemyPlayer("enemy", knife, 20, 50);
+    player1 = new UserPlayer("Player", knife, 500, 50);
+    // todo: Change to the enemies to the enemies I have saved in the enemy class.
+    enemy1 = new EnemyPlayer("enemy", knife, 20, 20);
+
+    saveData(player1);
+
 }
 
-
+// Allow user to buy and set weapon
 void game::playerWeapons() {
 Weapon* w = store.purchase();
 
 if(player1->getCash() > w->getPrice()) {
     player1->setWeapon(*w);
+} else {
+    cout << "Sorry you do not have enough cash." << endl;
 }
 
-cout << player1->getWeapon().getName() << endl;
+saveData(player1);
 }
 
+//Characters fight
 void game::fight() {
     srand(time(NULL));
         while (player1->getHealth() >= 0 && enemy1->getHealth() >= 0) {
@@ -39,17 +47,93 @@ void game::fight() {
 
             if (player1->getHealth() == 0) {
                 cout << "You have lost the match" << endl;
-                player1->setCash(-10);
+                player1->setCash(player1->getCash() - 10);
                 break;
             }
             if (enemy1->getHealth() == 0) {
                 cout << "congrats you have won the match" << endl;
-                player1->setCash(enemy1->getCash());
+                player1->setCash(player1->getCash() + enemy1->getCash());
+                break;
+            }
+        }
+        saveData(player1);
+    }
+
+int game::play() {
+    cout << "Choose an option: " << endl;
+    cout << "0. Exit out of the game." << endl;
+    cout << "1. Enter the Store " << endl;
+    cout << "2. View the Enemies. " << endl;
+    cout << "3. Fight in the Arena " << endl;
+    cout << "4. View the Characters sheet " << endl;
+    do {
+        cout <<" " << endl;
+        cout << "What is your pick: ";
+
+        int menu;
+        cin >> menu;
+        cin.ignore();
+
+        switch (menu) {
+            case 0:
+                cout << "Thank you goodbye" << endl;
+                // todo: save user status
+                return 0;
+            case 1: {
+                playerWeapons();
+                break;
+            }
+            case 2: {
+                enemy1->showMenu();
+                break;
+            }
+            case 3: {
+                fight();
+                break;
+            }
+            case 4: {
+                player1->showCharacterMenu();
+                break;
+            }
+            default: {
+                cout << "Sorry you did not answer the correct input" << endl;
                 break;
             }
 
         }
+    } while (true);
+}
+
+
+void game::saveData(Character * cPtr) {
+    ofstream outFile;
+    outFile.open("User.txt");
+
+    outFile << cPtr->getName() << ", " << cPtr->getWeapon().getName() << ", " << cPtr->getCash() << ", " << cPtr->getHealth() << endl;
+
+    outFile.close();
+}
+
+Character game::loadPlayer() {
+    Character * cptr;
+
+    string name;
+    // todo: Change this string to a weapon
+    string weaponName;
+    int cash;
+    int health;
+
+    ifstream fin("user.txt");
+
+    if(!fin) {
+        cout << "File error";
+        exit(1);
     }
+
+    fin >> name >> weaponName >> cash >> health;
+}
+
+
 
 
 

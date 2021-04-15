@@ -5,6 +5,7 @@
 #ifndef FANTASYFIGHTER_CHARACTER_H
 #define FANTASYFIGHTER_CHARACTER_H
 #include <string>
+#include <fstream>
 #include "Weapon.h"
 #include <iostream>
 
@@ -17,6 +18,7 @@ protected:
     Weapon weapon;
 
 public:
+    Character();
     Character(string n, Weapon cw, int c, int hp);
     void setWeapon(Weapon w);
     Weapon getWeapon();
@@ -28,6 +30,8 @@ public:
     int getHealth() const;
     int healthPoints;
     void attack(Character* c);
+    void loadUser();
+    void showCharacterMenu();
 };
 
 

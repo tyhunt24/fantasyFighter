@@ -7,6 +7,7 @@
 EnemyPlayer::EnemyPlayer(string n, Weapon cw, int c, int hp) : Character(n, cw, c, hp)  {
 }
 
+// Add Enemies to array
 void EnemyPlayer::addEnemies() {
     Weapon teeth = Weapon("teeth", 50, -1, 0);
     Weapon sword = Weapon("sword", 70, -1, 0);
@@ -24,6 +25,7 @@ void EnemyPlayer::addEnemies() {
     enemies.push_back(Thanos);
 }
 
+// Show the enemies
 void EnemyPlayer::showMenu() {
     addEnemies();
 
@@ -33,11 +35,18 @@ void EnemyPlayer::showMenu() {
     }
 }
 
-Character *EnemyPlayer::getEnemy(int level) {
-    if(level >= enemies.size()) {
-        return nullptr;
-    }
-    return &(enemies[level]);
+// todo: Figure out how to add these to the game class
+// todo: Figure out the file input output system
+EnemyPlayer EnemyPlayer::getEnemy() {
+    int i = rand() % enemies.size();
+
+    EnemyPlayer e = enemies[i];
+
+    return e;
+}
+
+EnemyPlayer::EnemyPlayer() {
+
 }
 
 

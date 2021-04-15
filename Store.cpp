@@ -34,7 +34,7 @@ void Store::showMenu() {
 Weapon* Store::purchase() {
         showMenu();
         int choice;
-        cout << "Buy a new weapon" << endl;
+        cout << "Buy a new weapon: ";
         cin >> choice;
         return &(weapons[choice]);
 }

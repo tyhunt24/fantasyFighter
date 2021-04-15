@@ -4,6 +4,9 @@
 
 #include "Character.h"
 
+Character::Character() {
+
+}
 
 Character::Character(string n, Weapon cw, int c, int hp): weapon(cw) {
     Name = n;
@@ -49,6 +52,11 @@ void Character::attack(Character* target) {
     cout << target->getName()  << " health is at " << target->healthPoints << endl;
 }
 
+
+
+void Character::showCharacterMenu() {
+    cout << "Player Name: " << getName() << " Weapon: " << getWeapon().getName() << "Cash: " << getCash();
+}
 
 
 

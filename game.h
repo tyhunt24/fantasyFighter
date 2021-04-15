@@ -9,6 +9,7 @@
 #include "UserPlayer.h"
 #include "Store.h"
 #include "Weapon.h"
+using namespace std;
 
 class game {
 protected:
@@ -20,6 +21,10 @@ public:
     game();
     void playerWeapons();
     void fight();
+    int play();
+    Character loadPlayer();
+    static void saveData(Character * cPtr);
+
 };
 
 

@@ -8,6 +8,7 @@ using namespace std;
 #include <iostream>
 #include <string>
 #include <vector>
+#include <fstream>
 #include "Weapon.h"
 #include "Character.h"
 
@@ -17,6 +18,7 @@ class UserPlayer: public Character{
 protected:
 public:
     UserPlayer(string n, Weapon cw, int c, int hp);
+
 };
 
 
