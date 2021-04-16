@@ -4,11 +4,10 @@
 
 #include "Weapon.h"
 
-Weapon::Weapon(string name, int damage, int price, int id) {
+Weapon::Weapon(string name, int damage, int price) {
     Name = name;
     Damage = damage;
     Price = price;
-    Id = id;
 }
 
 void Weapon::setName(string n) {

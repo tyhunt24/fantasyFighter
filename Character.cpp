@@ -55,7 +55,7 @@ void Character::attack(Character* target) {
 
 
 void Character::showCharacterMenu() {
-    cout << "Player Name: " << getName() << " Weapon: " << getWeapon().getName() << "Cash: " << getCash();
+    cout << "Player Name:" << getName() << " Weapon:" << getWeapon().getName() << " Cash:" << getCash() << " Health: " << getHealth();
 }
 
 

@@ -15,7 +15,7 @@ protected:
     int Damage;
 public:
     Weapon();
-    Weapon(string name, int damage, int price, int id);
+    Weapon(string name, int damage, int price);
     int Id;
     void setName(string n);
     string getName();

@@ -6,13 +6,11 @@
 
 //Constructor for this function, intial values
 game::game() {
-    Weapon knife("knife", 10, 0, 1);
-    player1 = new UserPlayer("Player", knife, 500, 50);
+    Weapon knife("knife", 10, 0);
     // todo: Change to the enemies to the enemies I have saved in the enemy class.
-    enemy1 = new EnemyPlayer("enemy", knife, 20, 20);
+    enemy1 = new EnemyPlayer("enemy", knife, 20, 50);
 
-    saveData(player1);
-
+    player1 = loadPlayer();
 }
 
 // Allow user to buy and set weapon
@@ -21,6 +19,7 @@ Weapon* w = store.purchase();
 
 if(player1->getCash() > w->getPrice()) {
     player1->setWeapon(*w);
+    player1->setCash(player1->getCash() - w->getPrice());
 } else {
     cout << "Sorry you do not have enough cash." << endl;
 }
@@ -45,12 +44,13 @@ void game::fight() {
                 }
             }
 
-            if (player1->getHealth() == 0) {
+            if (player1->getHealth() <= 0) {
                 cout << "You have lost the match" << endl;
                 player1->setCash(player1->getCash() - 10);
+                player1->setHealth(50);
                 break;
             }
-            if (enemy1->getHealth() == 0) {
+            if (enemy1->getHealth() <= 0) {
                 cout << "congrats you have won the match" << endl;
                 player1->setCash(player1->getCash() + enemy1->getCash());
                 break;
@@ -109,19 +109,25 @@ void game::saveData(Character * cPtr) {
     ofstream outFile;
     outFile.open("User.txt");
 
-    outFile << cPtr->getName() << ", " << cPtr->getWeapon().getName() << ", " << cPtr->getCash() << ", " << cPtr->getHealth() << endl;
+    outFile << cPtr->getName() << " " << cPtr->getCash() << " " << cPtr->getHealth() << endl;
+    outFile << cPtr->getWeapon().getName() << " " << cPtr->getWeapon().getDamage() << ", " << cPtr->getWeapon().getPrice();
 
     outFile.close();
 }
 
-Character game::loadPlayer() {
-    Character * cptr;
+Character *game::loadPlayer() {
+
+    Character *cptr;
 
     string name;
     // todo: Change this string to a weapon
-    string weaponName;
+    Weapon weapon;
     int cash;
     int health;
+    string weaponName;
+    int damage;
+    int price;
+
 
     ifstream fin("user.txt");
 
@@ -130,8 +136,20 @@ Character game::loadPlayer() {
         exit(1);
     }
 
-    fin >> name >> weaponName >> cash >> health;
+    fin >> name >> cash >> health;
+    fin >> weaponName >> damage >> price;
+
+    weapon.setName(weaponName);
+    weapon.setDamage(damage);
+    weapon.setPrice(price);
+
+    cptr = new Character(name, weapon, cash, health);
+
+    return cptr;
 }
+
+
+
 
 
 

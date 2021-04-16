@@ -30,7 +30,7 @@ public:
     int getHealth() const;
     int healthPoints;
     void attack(Character* c);
-    void loadUser();
+    Character loadPlayer();
     void showCharacterMenu();
 };
 

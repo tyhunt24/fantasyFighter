@@ -9,11 +9,11 @@
 
 void Store::createWeapons() {
     // create all weapons that will be in the game
-    Sword samuraiSword = Sword("Samurai Sword", 50, 70, 0);
-    Sword khopeshSword = Sword("Khopesh Sword", 150, 175, 1 );
-    Gun glock = Gun("Glock", 30, 50, 30, 2);
-    Gun m16 = Gun("M16", 70, 100, 50, 3);
-    Gun pkm = Gun("Pkm", 100, 200, 100, 4);
+    Sword samuraiSword = Sword("samuraiSword", 50, 70);
+    Sword khopeshSword = Sword("khopeshSword", 150, 175);
+    Gun glock = Gun("glock", 30, 50, 30);
+    Gun m16 = Gun("m16", 70, 100, 50);
+    Gun pkm = Gun("pkm", 100, 200, 100);
 
     //put all of the weapons into the store
     weapons.push_back(samuraiSword);
@@ -25,7 +25,7 @@ void Store::createWeapons() {
 
 void Store::showMenu() {
     for (int i = 0; i < weapons.size(); i++) {
-        cout <<"ID: " << weapons[i].Id << " Name:" << weapons[i].getName() << " Price:" << weapons[i].getPrice() << " Damage:"
+        cout <<"Pick: " << i << " Name:" << weapons[i].getName() << " Price:" << weapons[i].getPrice() << " Damage:"
              << weapons[i].getDamage() << endl;
         cout << " " << endl;
     }

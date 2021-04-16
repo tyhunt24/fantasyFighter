@@ -1,1 +1,2 @@
-Player, knife, 510, 0
+Player 370 10
+m16 70, 0

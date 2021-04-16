@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.cpp
-Character.h
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.h
-
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Character.h
 string
 -
@@ -19,10 +15,6 @@ Weapon.h
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
 iostream
 -
-
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/EnemyPlayer.cpp
-EnemyPlayer.h
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/EnemyPlayer.h
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/EnemyPlayer.h
 iostream
@@ -35,10 +27,6 @@ vector
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Gun.h
 Weapon.h
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
-
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Store.cpp
-Store.h
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Store.h
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Store.h
 vector
@@ -59,10 +47,6 @@ string
 -
 Weapon.h
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
-
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.cpp
-UserPlayer.h
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.h
 
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/UserPlayer.h
 iostream
@@ -99,8 +83,4 @@ Store.h
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Store.h
 Weapon.h
 /Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/Weapon.h
-
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/main.cpp
-game.h
-/Users/jeffreyhunt/Desktop/College/CST-210/Section5/fantasyFighter/game.h
 

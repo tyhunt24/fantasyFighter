@@ -9,10 +9,10 @@ EnemyPlayer::EnemyPlayer(string n, Weapon cw, int c, int hp) : Character(n, cw, 
 
 // Add Enemies to array
 void EnemyPlayer::addEnemies() {
-    Weapon teeth = Weapon("teeth", 50, -1, 0);
-    Weapon sword = Weapon("sword", 70, -1, 0);
-    Weapon eyes = Weapon("eyes", 100, -1, 0);
-    Weapon snap = Weapon("thanos", 200, -1, 0);
+    Weapon teeth = Weapon("teeth", 50, -1);
+    Weapon sword = Weapon("sword", 70, -1);
+    Weapon eyes = Weapon("eyes", 100, -1);
+    Weapon snap = Weapon("thanos", 200, -1);
 
     EnemyPlayer Vampire = EnemyPlayer("Vampire", teeth, 50, 25);
     EnemyPlayer Barbarian = EnemyPlayer("Barbarian", sword, 100, 50);

@@ -22,7 +22,7 @@ public:
     void playerWeapons();
     void fight();
     int play();
-    Character loadPlayer();
+    Character *loadPlayer();
     static void saveData(Character * cPtr);
 
 };

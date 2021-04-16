@@ -5,7 +5,7 @@
 #include "Gun.h"
 
 
-Gun::Gun(string name, int damage, int price, int ammo, int id) : Weapon(name, damage, price, id) {
+Gun::Gun(string name, int damage, int price, int ammo) : Weapon(name, damage, price) {
 Ammo=ammo;
 }
 

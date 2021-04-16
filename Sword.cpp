@@ -4,5 +4,5 @@
 
 #include "Sword.h"
 
-Sword::Sword(string name, int damage, int price, int id) : Weapon(name, damage, price, id) {
+Sword::Sword(string name, int damage, int price) : Weapon(name, damage, price) {
 }
