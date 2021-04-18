@@ -62,7 +62,7 @@ void game::fight() {
         }
         saveData(player1);
     }
-
+    //characters play game
 int game::play() {
     cout << "Choose an option: " << endl;
     cout << "0. Exit out of the game." << endl;
@@ -108,7 +108,7 @@ int game::play() {
     } while (true);
 }
 
-
+//save the players data
 void game::saveData(Character * cPtr) {
     ofstream outFile;
     outFile.open("User.txt");
@@ -119,6 +119,7 @@ void game::saveData(Character * cPtr) {
     outFile.close();
 }
 
+//load in the players data
 Character *game::loadPlayer() {
 
     Character *cptr;

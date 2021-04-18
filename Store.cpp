@@ -23,6 +23,7 @@ void Store::createWeapons() {
     weapons.push_back(pkm);
 }
 
+//show the player store
 void Store::showMenu() {
     for (int i = 0; i < weapons.size(); i++) {
         cout <<"Pick: " << i << " Name:" << weapons[i].getName() << " Price:" << weapons[i].getPrice() << " Damage:"
@@ -30,7 +31,7 @@ void Store::showMenu() {
         cout << " " << endl;
     }
 }
-// todo: figure out how purchase the weapon.
+//purchase the weapon
 Weapon* Store::purchase() {
         showMenu();
         int choice;

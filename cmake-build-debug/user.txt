@@ -1,2 +1,2 @@
-Knight 1000 500
-knife 30 0
+Knight 840 50
+m16 70, 100

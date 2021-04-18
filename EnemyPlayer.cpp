@@ -35,8 +35,7 @@ void EnemyPlayer::showMenu() {
     }
 }
 
-// todo: Figure out how to add these to the game class
-// todo: Figure out the file input output system
+//get a random enemy to fight
 EnemyPlayer* EnemyPlayer::getEnemy() {
     addEnemies();
 
