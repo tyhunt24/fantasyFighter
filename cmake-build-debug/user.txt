@@ -1,2 +1,2 @@
-Knight -50 50
-glock 30, 0
+Knight 1000 500
+knife 30 0
