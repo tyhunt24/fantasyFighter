@@ -36,6 +36,7 @@ Weapon* Store::purchase() {
         int choice;
         cout << "Buy a new weapon: ";
         cin >> choice;
+
         return &(weapons[choice]);
 }
 

@@ -16,7 +16,7 @@ public:
     EnemyPlayer(string n, Weapon cw, int c, int hp);
     void showMenu();
     void addEnemies();
-    EnemyPlayer getEnemy();
+    EnemyPlayer* getEnemy();
 };
 
 

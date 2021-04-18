@@ -11,13 +11,14 @@ game::game() {
     enemy1 = new EnemyPlayer("enemy", knife, 20, 50);
 
     player1 = loadPlayer();
+
 }
 
 // Allow user to buy and set weapon
 void game::playerWeapons() {
 Weapon* w = store.purchase();
 
-if(player1->getCash() > w->getPrice()) {
+if(player1->getCash() >= w->getPrice()) {
     player1->setWeapon(*w);
     player1->setCash(player1->getCash() - w->getPrice());
 } else {
@@ -29,6 +30,9 @@ saveData(player1);
 
 //Characters fight
 void game::fight() {
+  enemy1 = enemy1->getEnemy();
+
+  cout << enemy1->getName() << endl;
     srand(time(NULL));
         while (player1->getHealth() >= 0 && enemy1->getHealth() >= 0) {
 

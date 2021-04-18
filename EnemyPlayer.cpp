@@ -37,16 +37,19 @@ void EnemyPlayer::showMenu() {
 
 // todo: Figure out how to add these to the game class
 // todo: Figure out the file input output system
-EnemyPlayer EnemyPlayer::getEnemy() {
+EnemyPlayer* EnemyPlayer::getEnemy() {
+    addEnemies();
+
+    srand(time(NULL));
+
     int i = rand() % enemies.size();
 
-    EnemyPlayer e = enemies[i];
+    EnemyPlayer* e = &(enemies[i]);
 
     return e;
 }
 
 EnemyPlayer::EnemyPlayer() {
-
 }
 
 

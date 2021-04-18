@@ -1,2 +1,2 @@
-Player 370 10
-m16 70, 0
+Knight -50 50
+glock 30, 0
